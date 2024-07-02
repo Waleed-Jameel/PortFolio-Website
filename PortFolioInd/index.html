@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Portfolio.hu_full_logo.png"
+            style="width: 60px; height: 40px"
+          />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">PortFolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="headerText">
+          <div>
+            <p>Web Developer</p>
+            <h1>
+              Hi, I'm <span style="color: red">Waleed</span> <br />from Pakistan
+              
+            </h1>
+          </div>
+          <div>
+            <img
+              style="width: 570px; height: 300px;margin-left: 80px;"
+              src="https://media.istockphoto.com/id/1356364287/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-backlit-keyboard-screens-show.jpg?s=1024x1024&w=is&k=20&c=T3xezeQ1n3oB5mefJ3FePQlFnxyXaYOIAhnUHJWwra8="
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://media.istockphoto.com/id/1388913352/photo/lovely-business-man-attending-a-meeting-online-writing-stuff-down.jpg?s=612x612&w=0&k=20&c=xkrlDeFMcPOoelyiWd_FwuFOuGi23Fd-t18CxR15okE=" style="width:440px;height:500px; " />
+                </div>
+                  <div class="about-col-2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p>Aspiring web developer with a solid foundation in HTML, CSS, and JavaScript, along with familiarity with Bootstrap and Tailwind CSS frameworks. Eager to apply my knowledge and further enhance my skills through hands-on experience in an internship role. Passionate about creating visually appealing and user-friendly web experiences .</p>
+                    
+                    <div class="tabTitles">
+                      <p class="tabLinks activeLinks skills" onclick="opentab('skills')">Skills</p>
+                      <p class="tabLinks experience" onclick="opentab('experience')">Experience</p>
+                      <p class="tabLinks education" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tabContents activeTabs" id="skills">
+                      <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Intrerfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>AppDevelopment</span><br>Building Android/iOS</li>
+                      </ul>
+                    </div>
+
+                    <div class="tabContents " id="experience">
+                      <ul>
+                        <li><span>2021 - current</span><br>Designing Web/App Intrerfaces</li>
+                        <li><span>2019 - 2021</span><br>Web App Development</li>
+                        <li><span>2016 - 2017</span><br>Building Android/iOS</li>
+                      </ul>
+                    </div>
+
+                    <div class="tabContents" id="education">
+                      <ul>
+                        <li><span>2016</span><br>Designing Web/App Intrerfaces</li>
+                        <li><span>2016</span><br>Web App Development</li>
+                        <li><span>2017</span><br>Building Android/iOS</li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="subTitle">My Services</h1>
+        <div class="servicesList">
+           <div>
+             <h2>Web Design</h2>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatem consequatur odit repellendus .</p>
+             <a href="#">Learn more</a>
+           </div>
+           <div>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatem consequatur odit repellendus .</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>App Design</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatem consequatur odit repellendus .</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio  -->
+     <div id="portfolio">
+        <div class="container">
+          <h1 class="subTitle">My Work</h1>
+          <div class="workList">
+            <div class="work">
+              <img src="https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg?cs=srgb&dl=pexels-hammad-khalid-155549-1786433.jpg&fm=jpg" style="width:300px;height:300px;" alt="" />
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The App connects you to the talented<br> people around the world. Download<br> it from play store .</p>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="https://propakistani.pk/wp-content/uploads/2023/12/iPhone-15-Pro-e1702381232998.jpg" style="width:300px;height:300px;" alt="" />
+              <div class="layer">
+                <h3>Music App</h3>
+                <p>The App connects you to the talented<br> people around the world. Download<br> it from play store .</p>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3ooSmnwl5m7qqhukVQWi868CRMYYQeVGVA&s" style="width:300px;height:300px;" alt="" />
+              <div class="layer">
+                <h3>Online Shopping  App</h3>
+                <p>The App connects you to the talented<br> people around the world. Download<br> it from play store .</p>
+              </div>
+            </div>
+
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+    <!-- contact   -->
+     <div id="contact">
+      <div class="container">
+          <div class="row">
+            <div class="contactLeft">
+              <h1 class="subTitle">Contact Me</h1>
+              <p><img src="phL.png" style="width:50px;height:30px;padding-right: 20px;padding-top: 9px;"/>contact@example.com</p>
+              <p ><img src="numb.jpg" style="width:32px;height:30px;margin-right:12px ;padding-top: 8px;"/>+92 1234567890</p>
+              <div class="socialIcons">
+                <a href="https://facebook.com" target="_blank" ><img src="fblogo.png" style="width:60px;height:50px;"/></a>
+                <a href="https://twitter.com" target="_blank" ><img src="tw.png" style="width:50px;height:50px; "/></a>
+                <a href="https://whattsapp.com" target="_blank" ><img src="waa.jpg" style="width:50px;height:50px;"/></a>
+                <a href="https://instagram.com" target="_blank" ><img src="inst.jpg" style="width:70px;height:55px;margin-top: 5px;"/></a>
+              </div>
+              <a href="waleed (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactRight">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Me . Made with by Easy Tutorials .</p>
+      </div>
+     </div>
+    <script>
+     
+      let skills = document.querySelector(".skills") ;
+      let skillsI = document.querySelector("#skills") ;
+      let experience = document.querySelector(".experience") ;
+      let experienceI = document.querySelector("#experience") ;
+      let education = document.querySelector(".education") ;
+      let educationI = document.querySelector("#education") ;
+      skills.addEventListener('click',()=>{
+         skillsI.style.display = 'block' ;
+
+         skills.classList.add('activeLinks') ;
+         education.classList.remove('activeLinks') ;
+         experience.classList.remove('activeLinks') ;
+      })
+      experience.addEventListener('click',()=>{
+         experienceI.style.display = 'block' ;
+         skillsI.style.display = 'none' ;
+         educationI.style.display = 'none' ;
+
+         experience.classList.add('activeLinks') ;
+         skills.classList.remove('activeLinks') ;
+         education.classList.remove('activeLinks') ;
+      })
+      education.addEventListener('click',()=>{
+         experienceI.style.display = 'none' ;
+         skillsI.style.display = 'none' ;
+         educationI.style.display = 'block' ;
+
+         education.classList.add('activeLinks') ;
+         skills.classList.remove('activeLinks') ;
+         experience.classList.remove('activeLinks') ;
+      })
+    </script>
+  </body>
+</html>
